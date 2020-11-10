@@ -3,7 +3,7 @@ var inputval = document.getElementById("inputval")
 var buttonid = document.getElementById("buttonid")
  buttonid.addEventListener("click",()=>{
 
-    var url ="http://api.openweathermap.org/data/2.5/weather?q="+ inputval.value +"&appid=bd44aaae76769fde3866ba520016e566";
+    var url ="http://api.openweathermap.org/data/2.5/weather?q="+ inputval.value +"&appid=your_api_id_here";
     fetch(url)
     .then(
         (apidata) => apidata.json()
