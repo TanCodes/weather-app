@@ -1,0 +1,60 @@
+html {
+  margin-left: 25%;
+  margin-right: 25%;
+  box-sizing: border-box;
+}
+.inp-1::placeholder {
+  color: rgb(175, 160, 160);
+}
+/* title  */
+.app-main {
+  color: aliceblue;
+  font-weight: bold;
+  padding-bottom: 7px;
+  background-color: royalblue;
+  margin-top: 1%;
+  border-radius: 1rem;
+}
+
+/* middle div (center) */
+.inp-div {
+  margin-top: 4%;
+  background: lightcyan;
+  border-radius: 1rem;
+  padding-bottom: 10px;
+}
+span {
+  font-weight: bolder;
+}
+
+/* main-div(outter) */
+.main-div1 {
+  background-color: lightblue;
+  text-align: center;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 10%;
+  border-radius: 2rem;
+}
+
+/* media */
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .main-div1 {
+    width: 100%;
+  }
+  html {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .main-div1 {
+    width: 100%;
+  }
+  .app-main {
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+}
